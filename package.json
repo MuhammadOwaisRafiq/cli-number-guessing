@@ -4,7 +4,9 @@
   "description": "This is cli based number guessing game.",
   "main": "index.js",
   "type": "module",
-  "bin" : "index.js",
+  "bin": {
+    "nnbr-cli-number-guessing": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +16,7 @@
     "inquirer": "^9.2.19"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.7"
   }
 }
