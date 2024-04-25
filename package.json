@@ -1,22 +1,24 @@
 {
-  "name": "nnbr-cli-number-guessing",
-  "version": "3.0.3",
+  "name": "guessquest-number-guessing",
+  "version": "1.0.1",
   "description": "This is cli based number guessing game.",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
-    "nnbr-cli-number-guessing": "index.js"
+    "guessquest-number-guessing": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.19"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7",
-    "@types/node": "^20.12.7"
+    "@types/inquirer": "^9.0.7"
   }
 }
